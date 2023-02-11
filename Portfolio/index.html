@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+  
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 id="title">My Portfolio</h1>
+      </div>
+       <a href="portfolio.html"><h2 class="home"><u>Home</u></h2></a>
+       <a href="academics.html" target="_blank" ><h2 class="academics"><u>Academics</u></h2></a>
+    </header>
+    <main>
+      <img class="profile-picture" src="https://lh3.googleusercontent.com/pw/AMWts8CCUa2eJJhAjiM3-9gy8Y7J7XUxH1618eiO2lZQwzzGxMf5ad0dDoxrftoPBUc_NmwWS8Q9jz2z_VHnWjmHrDbBpLibdZ3AKuwiwSlBGFk104sMz7Wee2W72wBPcf8RBAxqKwDuNHoYRg84N4VM5QoL=w625-h495-no?authuser=0" >
+      <div class="naam"><h2>Suvam Poudel</h2></div>
+      <div class="container">
+        <section>
+          <h2>About Me</h2>
+          <!-- my personal details are here -->
+          <p id="about-me">My name is Suvam Poudel and I am a student of Herald College <br> Kathmandu. I am 18 years old. The course program that I am<br> studying right now is BSc. Hons Computer Science here in Herald. </p>
+          
+        </section>
+
+        
+        
+        
+      </div>
+      <div class="contact-section">
+        <h2>Info.</h2>
+       
+       <ul>
+        <li><strong>Address:</strong> Kathmandu</li>
+        <li><strong>Phone:</strong> 9815323830</li>
+        <li><strong>Email:</strong> poudelsuvam0@gmail.com</li>
+      </ul>
+      </div>
+      <a href="contact.html " target="_blank"><h2 class="message"><u>Contact Me</u></h2></a>   
+      <div class="sivi" > <a href="cv.html" target="_blank">CV</a></div>
+      <a class="hobbies" href="hobbies.html" target="_blank"><b>Hobbies</b></a>
+      <a class="family" href="family.html" target="_blank"><b>Family</b></a>
+
+      
+    </main>
+    <script>
+      
+      const title = document.getElementById("title");
+      title.addEventListener("click", function () {
+        alert("You clicked on the title!");
+      });
+
+      const aboutMe = document.getElementById("about-me");
+      aboutMe.addEventListener("mouseenter", function () {
+        aboutMe.style.backgroundColor = "lightyellow";
+      });
+      aboutMe.addEventListener("mouseleave", function () {
+        aboutMe.style.backgroundColor = "";
+      });
+
+      
+
+      
+
+      
+    
+    </script>
+    </body>
+      </html>
